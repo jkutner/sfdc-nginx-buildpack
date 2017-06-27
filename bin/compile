@@ -35,7 +35,6 @@ cp $OPT_DIR/web $nginx_dir/bin/nginx-start
 chmod +x $nginx_dir/bin/nginx-start
 echo "-----> Installed nginx"
 
-cp $OPT_DIR/recompose $heroku_bin_dir/recompose
-chmod +x ${heroku_bin_dir}/recompose
+cp $OPT_DIR/start $BUILD_DIR/.profile.d/nginx-start.sh
 
 cp $OPT_DIR/nginx.conf.erb $nginx_dir/
