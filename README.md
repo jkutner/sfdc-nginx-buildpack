@@ -1,7 +1,6 @@
-# SFDC JDK Buildpack
+# SFDC Nginx Buildpack
 
-This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks)
-that will install the SFDC JDK.
+This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks).
 
 ## License
 
